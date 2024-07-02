@@ -1,7 +1,4 @@
 def splitCancer(homepath, names, seed=42):
-    
-    if seed is not None:
-        random.seed(seed)
 
     # for cancer
     import os
@@ -11,6 +8,9 @@ def splitCancer(homepath, names, seed=42):
     import random
     import warnings
     warnings.filterwarnings("ignore")
+
+    if seed is not None:
+        random.seed(seed)
 
     # Directory
     directory = "test_data"
@@ -103,9 +103,6 @@ def splitCancer(homepath, names, seed=42):
 
 def splitNormal(homepath, names, seed=42):
 
-    if seed is not None:
-        random.seed(seed)
-
     # for normal
     import os
     import numpy as np
@@ -114,6 +111,9 @@ def splitNormal(homepath, names, seed=42):
     import random
     import warnings
     warnings.filterwarnings("ignore")
+
+    if seed is not None:
+        random.seed(seed)
 
     # len(cancer_names)
     for index in range(len(names)):
