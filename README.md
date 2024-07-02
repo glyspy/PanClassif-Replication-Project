@@ -1,3 +1,8 @@
+# Disclaimer
+This is a replication project of PanClassif for the course of "Machine Learning in Computational Biology" of the Master's program in in ["Data Science & Information Tachnologies"](https://dsit.di.uoa.gr) and the specialization of "Bioinformatics - Biomedical Data Science" offered by the National and Kapodistrian University of Athens.
+In this repository, we have cloned the main branch of the original work on which we worked on several minor improvements.
+We also tried extending the original work by proposing alternative methods.
+
 # PanClassif: A machine learning classifier pipeline for [TCGA](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) pancancer classification
 
 This is a complete machine learning pipeline package to work with TCGA cancer RNA-seq gene count data.
