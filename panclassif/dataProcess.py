@@ -5,7 +5,7 @@ from .stepfour import step4
 from .stepfive import step5
 from .test_train_split import splitCancer, splitNormal
 
-def dataProcess(homepath,names,cancerpath,smoothed_cancer,smoothed_normal,scale_mode):
+def dataProcess(homepath,names,cancerpath,smoothed_cancer,smoothed_normal,scale_mode,cancer):
 	'''
 	Parameters
 	----------
@@ -41,7 +41,7 @@ def dataProcess(homepath,names,cancerpath,smoothed_cancer,smoothed_normal,scale_
 	'''
 
 	print("Data process is running")
-	step1(homepath,names)
+	step1(homepath,names,cancer)
 	step2(homepath)
 	step3(homepath)
 	step4(homepath,cancerpath,smoothed_cancer)

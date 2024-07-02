@@ -184,7 +184,7 @@ def classification(homepath, classifier, mode="binary", save_model=""):
     from keras.models import Sequential
     from keras.layers import Dense
     from sklearn.preprocessing import LabelEncoder
-    from keras.utils import np_utils
+    from keras.utils import to_categorical
     import tensorflow as tf
 
     #train load
@@ -238,7 +238,7 @@ def classification(homepath, classifier, mode="binary", save_model=""):
       encoder.fit(y_train)
       encoded_Y = encoder.transform(y_train)
       # convert integers to dummy variables (i.e. one hot encoded)
-      y_train = np_utils.to_categorical(encoded_Y)
+      y_train = to_categorical(encoded_Y)
 
       encoder = LabelEncoder()
       encoder.fit(y_test)
