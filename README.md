@@ -3,6 +3,8 @@ This is a replication project of PanClassif for the course of "Machine Learning 
 In this repository, we have cloned the main branch of the original work on which we worked on several minor improvements.
 We also tried extending the original work by proposing alternative methods.
 
+This replication project was in collaboration with [Marintina Stamati](https://github.com/Marintina).
+
 # PanClassif: A machine learning classifier pipeline for [TCGA](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) pancancer classification
 
 This is a complete machine learning pipeline package to work with TCGA cancer RNA-seq gene count data.
